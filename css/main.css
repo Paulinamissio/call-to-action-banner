@@ -35,11 +35,11 @@ html {
   position: absolute;
   top: -20rem;
   right: -13em;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
-  padding-left: 3em;
+  padding-right: 3em;
   float: right;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -60,5 +60,5 @@ p {
 }
 
 body {
-  
+overflow: hidden;
 }
