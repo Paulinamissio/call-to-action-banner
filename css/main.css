@@ -16,7 +16,7 @@ html {
   width: 30%;
   position: absolute;
   top: 3em;
-  left: 4em;
+  left: 3em;
 }
 
 .banner {
@@ -34,14 +34,19 @@ html {
   font-size: 4rem;
   position: absolute;
   top: -20rem;
-  right: -13em;
-  font-family: 'Roboto', sans-serif;
+  right: 13em;
 }
 
-p {
+.banner p {
   padding-right: 3em;
-  float: right;
+  padding-bottom: 3em;
+  float: left;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.btn {
+  transform: translate(0);
+  overflow: hidden;
 }
 
 .btn-big {
@@ -55,10 +60,10 @@ p {
   padding: 2em;
 }
 
-.btn:hover{
+.btn:hover {
   float: right;
 }
 
 body {
-overflow: hidden;
+  margin: 0;
 }
