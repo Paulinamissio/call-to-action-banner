@@ -26,18 +26,18 @@ html {
 
 .banner-body {
   max-width: 50em;
-  position: absolute;
-
+  position: relative;
 }
 
-.banner-title {
+.h2 {
   font-size: 4rem;
   position: absolute;
-  top: -20rem;
-  right: 13em;
 }
 
-.banner p {
+p {
+  position: absolute;
+  top: 15em;
+  left: 15em;
   padding-right: 3em;
   padding-bottom: 3em;
   float: left;
@@ -51,13 +51,15 @@ html {
 
 .btn-big {
   position: absolute;
+  left: 14em;
+  top: 12em;
   display: block;
   background-color: black;
   color: white;
   font-size: 1.5rem;
   border: 3px solid black;
-  border-radius: 7px;
-  padding: 2em;
+  border-radius: 3px;
+  padding: 1rem;
 }
 
 .btn:hover {
@@ -66,8 +68,12 @@ html {
 
 body {
   margin: 0;
+  position: relative;
 }
 
 .banner h2 {
-  margin: 0;
+  font-size: 3rem;
+  position: absolute;
+  top: -9em;
+  left: 7em;
 }
